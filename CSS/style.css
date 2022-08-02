@@ -23,44 +23,42 @@ h3 {
         padding-left: 200px;
 }
 
-.FDP1 p {
-        font-size: 1.3rem;
+.inicio-index{
+        padding-bottom: 50px;
+} 
 
-        float: none;
-
-        display: grid;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        align-items: stretch;
-
+.card-img-overlay {
+        /* text-shadow: 2px 2px 2px gray; */
 }
 
-.FDP2 li {
-        list-style: None;
-        font-size: 2rem;
+.card-title {
+        display: flex;
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
 }
 
-.FDP2 p {
-        font-size: 1.3rem;
+
+.img-fluid {
+        border-radius: 10%;
+        width: 100%;
 }
 
-.P1 {
-        width: 50%;
-        float: left;
-        padding: 20px;
+.img-fluid1 {
+        width: 100%;
 }
 
-.P2 {
-        float: right;
-        width: 50%;
-        padding: 20px;
+.row {
+        padding-bottom: 30px;
 }
 
-.texto {
-        float: none;
-        width: 50%;
-        padding: 20px;
+
+
+.row-botones {
+        padding-top: 5%;
+        padding-bottom: 5%;
 }
+
 
 /* INICIO DE DISEÑO VENTAJA DE NUESTROS PRODUCTOS */
 
@@ -227,4 +225,8 @@ h3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
 
+}
+
+.form-label {
+        font-weight: bold;
 }
